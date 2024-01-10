@@ -1,0 +1,32 @@
+# The maximum number of files to display in the results table.
+# Default: 10
+filesToShow: 20
+
+# The minimum score a file need to display in the results table.
+# Disabled if null.
+# Default: 0.1
+minScoreToShow: 0
+
+# Files to ignore when processing. The full path to the file relative to the root of your project is required.
+# Also supports regular expressions.
+# Default: All PHP files in the path provided to churn-php are processed.
+filesToIgnore:
+ - vendor/*
+ - storage/*
+ - tests/*
+
+# File extensions to use when processing.
+# Default: php
+fileExtensions:
+ - php
+ - inc
+
+# The version control system used for your project.
+# Accepted values: fossil, git, mercurial, subversion, none
+# Default: git
+vcs: none
+
+# The path of the cache file. It doesn't need to exist before running churn.
+# Disabled if null.
+# Default: null
+cachePath: null

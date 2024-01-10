@@ -1,0 +1,7 @@
+---
+composer: true # Analyse the composer.* files
+excludes: # regex of files (or directory) to exclude from analyze
+  - vendor
+  - tests
+report: # list of reports to generate
+  html: "/work/phpmetrics-report/"
