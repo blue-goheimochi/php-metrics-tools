@@ -59,3 +59,7 @@ php-cs-fixer: check
 .PHONY:
 phpinsights: check
 	@docker run --rm -v ${TARGET_DIR}:/app:ro -v ${PWD}:/work php-metrics-tools phpinsights analyse --config-path=/work/config/phpinsights.php --ansi ./
+
+.PHONY:
+test:
+	bats tests/
