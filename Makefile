@@ -4,12 +4,12 @@ build:
 
 .PHONY:
 check:
-	@if [[ -z "$$TARGET_DIR" ]]; then\
+	@if [ -z "$(TARGET_DIR)" ]; then\
 	    echo 'TARGET_DIRの環境変数を設定してください';\
 	    echo 'ex: export TARGET_DIR=/Path/To/Target/Dir';\
 	    exit 1;\
 	else\
-		echo "TARGET_DIR: $${TARGET_DIR}";\
+		echo "TARGET_DIR: $(TARGET_DIR)";\
 	fi
 
 .PHONY:
