@@ -112,7 +112,7 @@ make phpmnd
 
 #### PHP_CodeSniffer
 
-https://github.com/squizlabs/PHP_CodeSniffer
+https://github.com/PHPCSStandards/PHP_CodeSniffer
 
 ```shell
 make phpcs
