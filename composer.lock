@@ -1640,33 +1640,29 @@
         },
         {
             "name": "phpmetrics/phpmetrics",
-            "version": "v2.8.2",
+            "version": "v2.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpmetrics/PhpMetrics.git",
-                "reference": "4b77140a11452e63c7a9b98e0648320bf6710090"
+                "reference": "55c5e23b34afb8fa9b6c6ea95cbd59b710160235"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpmetrics/PhpMetrics/zipball/4b77140a11452e63c7a9b98e0648320bf6710090",
-                "reference": "4b77140a11452e63c7a9b98e0648320bf6710090",
+                "url": "https://api.github.com/repos/phpmetrics/PhpMetrics/zipball/55c5e23b34afb8fa9b6c6ea95cbd59b710160235",
+                "reference": "55c5e23b34afb8fa9b6c6ea95cbd59b710160235",
                 "shasum": ""
             },
             "require": {
                 "ext-dom": "*",
                 "ext-tokenizer": "*",
-                "nikic/php-parser": "^3|^4",
-                "php": ">=5.5"
+                "nikic/php-parser": "^3|^4|^5"
             },
             "replace": {
                 "halleck45/php-metrics": "*",
                 "halleck45/phpmetrics": "*"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.8.36 || ^5.7.27 || ^6.5.14",
-                "sebastian/comparator": ">=1.2.3",
-                "squizlabs/php_codesniffer": "^3.5",
-                "symfony/dom-crawler": "^3.0 || ^4.0 || ^5.0"
+                "phpunit/phpunit": "*"
             },
             "bin": [
                 "bin/phpmetrics"
@@ -1702,9 +1698,15 @@
             ],
             "support": {
                 "issues": "https://github.com/PhpMetrics/PhpMetrics/issues",
-                "source": "https://github.com/phpmetrics/PhpMetrics/tree/v2.8.2"
+                "source": "https://github.com/phpmetrics/PhpMetrics/tree/v2.11.0"
             },
-            "time": "2023-03-08T15:03:36+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/Halleck45",
+                    "type": "github"
+                }
+            ],
+            "time": "2026-08-09T06:58:42+00:00"
         },
         {
             "name": "phpstan/phpdoc-parser",
@@ -5641,5 +5643,5 @@
     "prefer-lowest": false,
     "platform": {},
     "platform-dev": {},
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.9.0"
 }
