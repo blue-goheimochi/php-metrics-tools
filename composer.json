@@ -1,7 +1,7 @@
 {
     "require": {
         "rector/rector": "^1.0.0",
-        "phpstan/phpstan": "^1.10",
+        "phpstan/phpstan": "^2.0",
         "bmitch/churn-php": "^1.7",
         "phpmetrics/phpmetrics": "^2.8",
         "phpmd/phpmd": "^2.15",
